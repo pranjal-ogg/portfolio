@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Experience, <span>education</span> &
+          <br /> certifications
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,43 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Computer Analyst</h4>
+                <h5>CID, West Bengal</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Building production-ready application backends using Node.js, PostgreSQL, MySQL, and MongoDB. Developing applications using Python.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Master of Computer Applications</h4>
+                <h5>Meghnad Saha Institute of Technology</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Expected graduation in July 2025.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>BSc in Computer Science</h4>
+                <h5>University of Calcutta</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Graduated from Narasinha Dutt College.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Certifications</h4>
+                <h5>NPTEL & Forage</h5>
+              </div>
+              <h3>2024-25</h3>
+            </div>
+            <p>
+              Privacy and Security in Online Social Media (NPTEL), Introduction to Programming C (NPTEL), Deloitte Australia Data Analytics Job Simulation (Forage).
             </p>
           </div>
         </div>

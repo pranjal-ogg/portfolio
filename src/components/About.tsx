@@ -4,13 +4,9 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       <div className="about-me">
-        <h3 className="title">About Me</h3>
+        <h3 className="title">Career Objective</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          Aspiring AI/ML Engineer with foundational skills in machine learning, Python, and the MERN stack, eager to drive impactful, data-driven projects in AI, computer vision, and web development.
         </p>
       </div>
     </div>
