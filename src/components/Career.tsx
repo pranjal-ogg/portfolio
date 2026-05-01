@@ -5,59 +5,58 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          Experience, <span>education</span> &
-          <br /> certifications
+          Education &amp; <span>certifications</span>
         </h2>
         <div className="career-info">
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
+
+          {/* Education */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Computer Analyst</h4>
-                <h5>CID, West Bengal</h5>
+                <h4>Bachelor of Technology (AI &amp; ML)</h4>
+                <h5>Newton School of Technology, Pune</h5>
               </div>
-              <h3>2025</h3>
+              <h3>2024 – 2028</h3>
             </div>
-            <p>
-              Building production-ready application backends using Node.js, PostgreSQL, MySQL, and MongoDB. Developing applications using Python.
-            </p>
+            <p>Grade: 7.73 / 10.0 — Currently pursuing B.Tech in Artificial Intelligence &amp; Machine Learning.</p>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Master of Computer Applications</h4>
-                <h5>Meghnad Saha Institute of Technology</h5>
+                <h4>Intermediate (Class XII)</h4>
+                <h5>Sacred Heart School, Uttar Pradesh</h5>
               </div>
-              <h3>2025</h3>
+              <h3>2022 – 2025</h3>
             </div>
-            <p>
-              Expected graduation in July 2025.
-            </p>
+            <p>Grade: 81.0%</p>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>BSc in Computer Science</h4>
-                <h5>University of Calcutta</h5>
+                <h4>Matriculation (Class X)</h4>
+                <h5>Sacred Heart School, Uttar Pradesh</h5>
               </div>
-              <h3>2023</h3>
+              <h3>2020 – 2021</h3>
             </div>
-            <p>
-              Graduated from Narasinha Dutt College.
-            </p>
+            <p>Grade: 79.16%</p>
           </div>
+
+          {/* Certification */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Certifications</h4>
-                <h5>NPTEL & Forage</h5>
+                <h4>AI for Everyone</h4>
+                <h5>DeepLearning.AI</h5>
               </div>
-              <h3>2024-25</h3>
+              <h3>Jan 2025</h3>
             </div>
             <p>
-              Privacy and Security in Online Social Media (NPTEL), Introduction to Programming C (NPTEL), Deloitte Australia Data Analytics Job Simulation (Forage).
+              An introductory course covering key AI concepts like machine learning, deep learning, neural networks, and data science. Explores real-world applications, ethical considerations, and how AI drives innovation across industries.
             </p>
           </div>
         </div>

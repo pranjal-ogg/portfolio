@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       <div className="about-me">
-        <h3 className="title">Career Objective</h3>
+        <h3 className="title">Professional Summary</h3>
         <p className="para">
-          Aspiring AI/ML Engineer with foundational skills in machine learning, Python, and the MERN stack, eager to drive impactful, data-driven projects in AI, computer vision, and web development.
+          Full-Stack Developer and AI/ML undergraduate skilled in building scalable web applications and data-driven systems using React, Node.js, Express, and SQL/NoSQL databases. Experienced in developing end-to-end projects with REST APIs, secure authentication, and machine learning pipelines. Built and deployed multiple full-stack and AI/ML projects with a focus on clean architecture, maintainable code, and user-centric solutions.
         </p>
       </div>
     </div>

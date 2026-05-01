@@ -4,28 +4,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Recommendation System",
-    category: "Machine Learning (Jan 2025)",
-    tools: "Python, TensorFlow, Scikit-learn, Pandas",
+    title: "TriageFlow",
+    category: "Full-Stack (February 2026)",
+    tools: "React, Tailwind, React Flow, Node.js, Express, MongoDB, Mongoose, JWT",
+    description: "Built a full-stack clinical triage platform with a visual decision-tree workflow builder. Developed secure JWT-based REST APIs and a DAG triage engine for guided navigation and reporting.",
     image: "/images/Solidx.png",
   },
   {
-    title: "Social Media App",
-    category: "MERN Stack (Oct 2024)",
-    tools: "MongoDB, Express.js, React.js, Node.js",
+    title: "PropWise-AI",
+    category: "Machine Learning (February 2026)",
+    tools: "Python, Scikit-learn, Streamlit, Pandas, NumPy, Matplotlib",
+    description: "Built an end-to-end ML pipeline for property price prediction using Random Forest. Developed a Streamlit web app for real-time predictions with model evaluation & feature insights.",
     image: "/images/radix.png",
   },
   {
-    title: "Face Recognition Attendance",
-    category: "Computer Vision (Apr 2024)",
-    tools: "Python, OpenCV, Firebase",
+    title: "VolunteerConnect",
+    category: "Full-Stack (October 2025)",
+    tools: "React, Tailwind CSS, Node.js, Express.js, Prisma ORM, JWT, REST APIs",
+    description: "Built a full-stack volunteer management platform for Volunteers and Organisers. Developed secure JWT-based REST APIs with event signup and attendance tracking workflows.",
     image: "/images/bond.png",
-  },
-  {
-    title: "Number Plate Detection",
-    category: "Image Processing (July 2023)",
-    tools: "Python, OpenCV, Tesseract OCR",
-    image: "/images/sapphire.png",
   },
 ];
 
@@ -101,8 +98,9 @@ const Work = () => {
                         <p className="carousel-category">
                           {project.category}
                         </p>
+                        <p className="carousel-description">{project.description}</p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Tools &amp; Tech</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>

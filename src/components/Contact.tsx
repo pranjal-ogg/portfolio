@@ -10,17 +10,19 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:rajeshpal31082001@gmail.com" data-cursor="disable">
-                rajeshpal31082001@gmail.com
+              <a href="mailto:pranjal.tripathi@adypu.edu.in" data-cursor="disable">
+                pranjal.tripathi@adypu.edu.in
               </a>
             </p>
+            <h4>Phone</h4>
+            <p>+917617030028</p>
             <h4>Education</h4>
-            <p>Master of Computer Applications</p>
+            <p>B.Tech (AI &amp; ML) — Newton School of Technology</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/rajesh31082001"
+              href="https://github.com/pranjal-ogg"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -28,26 +30,17 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/rajesh-pal-619b5a200/"
+              href="https://www.linkedin.com/in/pranjal-tripathi-qwerty"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
-
-            <a
-              href="https://www.instagram.com/_r_a_j_e_s_h_0_1_?igsh=MjkwZnNsNzh6Mnpr"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Rajesh Pal</span>
+              Designed and Developed <br /> by <span>Pranjal Tripathi</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

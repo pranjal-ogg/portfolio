@@ -87,21 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>WEB DEVELOPMENT</h3>
-              <h4>Building MERN Stack Applications</h4>
+              <h3>FULL-STACK DEV</h3>
+              <h4>Building Scalable Web Applications</h4>
               <p>
-                Developing dynamic, responsive web applications using MongoDB, Express.js, React.js, and Node.js. Focused on secure, scalable, and intuitive user experiences.
+                Developing end-to-end web applications with secure REST APIs, authentication flows, and responsive UIs using modern JavaScript frameworks.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">Express.js</div>
                 <div className="what-tags">React.js</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">Express.js</div>
+                <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Tailwind CSS</div>
-                <div className="what-tags">Chakra UI</div>
+                <div className="what-tags">Prisma ORM</div>
+                <div className="what-tags">JWT Auth</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">MySQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,21 +126,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DATA SCIENCE & ML</h3>
-              <h4>Machine Learning & Computer Vision</h4>
+              <h3>AI / ML ENGINEERING</h3>
+              <h4>Data-Driven Systems &amp; ML Pipelines</h4>
               <p>
-                Designing and implementing intelligent systems using Python, autoencoders, and OpenCV. Passionate about solving complex problems through data-driven insights.
+                Building end-to-end ML pipelines, predictive models, and intelligent systems with Python. Focused on real-world deployment and actionable model insights.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
-                <div className="what-tags">C</div>
-                <div className="what-tags">Machine Learning</div>
-                <div className="what-tags">Computer Vision</div>
-                <div className="what-tags">OpenCV</div>
-                <div className="what-tags">scikit-learn</div>
+                <div className="what-tags">Scikit-learn</div>
                 <div className="what-tags">NumPy</div>
-                <div className="what-tags">TensorFlow</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">Matplotlib</div>
+                <div className="what-tags">Streamlit</div>
+                <div className="what-tags">Random Forest</div>
+                <div className="what-tags">SQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
